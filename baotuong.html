@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Báo Tường - Ngày Nhà Giáo Việt Nam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <h1 class="title">Ngày Nhà Giáo Việt Nam</h1>
+        <p class="subtitle">Lớp 12T1 - Trường THPT Lê Thị Riêng</p>
+        <p class="homeroom">Chủ nhiệm: Thầy Tào Phùng Đại Tiến</p>
+        <p class="date">20/11/2025</p>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Introduction Section -->
+      <section class="intro-section">
+        <h2>Kính Tặng Các Thầy Cô Giáo</h2>
+        <p>
+          Nhân Ngày Nhà Giáo Việt Nam (20/11), lớp 12T1 xin dành tặng những lời
+          cảm ơn chân thành đến các thầy cô giáo - những người đã tận tâm giáo
+          dục và hướng dẫn chúng em trên con đường học tập.
+        </p>
+          <p>Đặc biệt là thầy Tiến - người đã đồng hành cùng chúng em suốt 2 năm qua &lt;3</p>
+        </p>
+      </section>
+
+      <!-- Gallery Section -->
+      <section class="gallery-section">
+        <h2>12T1's Photos</h2>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img
+              src="img/16f8d2cbe1a96ff736b8.jpg"
+              alt="Khoảnh khắc 1"
+            />
+          </div>
+          <div class="gallery-item">
+            <img src="img/74203259013b8f65d62a.jpg" alt="Khoảnh khắc 2" />
+          </div>
+          <div class="gallery-item">
+            <img src="img/bde7b7ed868f08d1519e.jpg" alt="Khoảnh khắc 3" />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="img/e0e0108fd8ed56b30ffc.jpg"
+              alt="Khoảnh khắc 4"
+              style="object-fit: cover"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="img/d8b682426320ed7eb431.jpg"
+              alt="Khoảnh khắc 5"
+              style="object-fit: cover"
+            />
+          </div>
+          <div class="gallery-item">
+            <img
+              src="img/8b1180bc61deef80b6cf.jpg"
+              alt="Khoảnh khắc 6"
+              style="object-fit: cover"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section class="video-section">
+        <h2>We Are 12T1 <style> 
+        </style></h2>
+        <div class="video-container">
+          <video width="100%" controls>
+            <source src="video/1038098490249732955.mp4" type="video/mp4" />
+            Trình duyệt của bạn không hỗ trợ video.
+          </video>
+        </div>
+      </section>
+
+      <!-- Message Section -->
+      <section class="message-section">
+        <h2>Những Lời Cảm Ơn Từ Trái Tim</h2>
+        <ul class="message-list">
+          <li>
+            Cảm ơn các thầy cô đã luôn tâm huyết với sự giáo dục của chúng em
+          </li>
+          <li>Cảm ơn vì những bài giảng sinh động và đầy ý nghĩa</li>
+          <li>Cảm ơn vì sự kiên nhẫn, yêu thương và tin tưởng vào chúng em</li>
+          <li>
+            Cảm ơn đã giúp chúng em phát triển toàn diện cả kiến thức và nhân
+            cách
+          </li>
+        </ul>
+        <p> <strong> Cuối lời xin kín chúc thầy cô luôn mạnh khỏe và hạnh phúc để đưa thêm nhiều bến đò cho tương lai &lt;3  </strong></p>
+      </section>
+
+      <!-- Comment Section -->
+      <section class="comment-section">
+        <h2>Cảm Nghĩ Của Bạn</h2>
+        <p style="margin-bottom: 20px; color: #666;">Hãy chia sẻ những cảm nghĩ, lời cảm ơn hoặc những kỷ niệm đẹp của bạn với thầy cô:</p>
+        <form class="comment-form" id="commentForm" method="post">
+          <div class="form-group">
+            <label for="name">Tên của bạn:</label>
+            <input type="text" id="name" name="name" placeholder="Nhập tên..." required />
+          </div>
+          <div class="form-group">
+            <label for="class">Lớp:</label>
+            <input type="text" id="class" name="class" placeholder="Ví dụ: 12T1" />
+          </div>
+          <div class="form-group">
+            <label for="comment">Cảm nghĩ của bạn:</label>
+            <textarea id="comment" name="comment" rows="5" placeholder="Viết cảm nghĩ của bạn ở đây..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Gửi Cảm Nghĩ</button>
+        </form>
+        <div id="commentsList" class="comments-list" style="margin-top: 30px;">
+          <h3 style="color: #667eea; margin-bottom: 20px;">Những Cảm Nghĩ Từ Các Bạn:</h3>
+          <div id="commentsContainer"></div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Nhóm 1 - Lớp 12T1 - Trường THPT Lê Thị Riêng</p>
+        <p> Email liên hệ: <strong>hainguyendy8@gmail.com</strong></p>
+        <p>Tháng 11 năm 2025</p>
+      </footer>
+    </main>
+  </body>
+</html>
+<script>
+  // Hàm để lưu và hiển thị bình luận
+  function loadComments() {
+    const comments = JSON.parse(localStorage.getItem('comments')) || [];
+    const commentsContainer = document.getElementById('commentsContainer');
+    
+    if (comments.length === 0) {
+      commentsContainer.innerHTML = '<p style="color: #999; text-align: center;">Chưa có bình luận nào. Hãy là người đầu tiên chia sẻ cảm nghĩ!</p>';
+      return;
+    }
+    
+    commentsContainer.innerHTML = comments.map((comment, index) => `
+      <div class="comment-item">
+        <div class="comment-item-name">👤 ${comment.name}</div>
+        ${comment.class ? `<div class="comment-item-class">📚 ${comment.class}</div>` : ''}
+        <div class="comment-item-text">${comment.text}</div>
+        <div class="comment-item-time">⏰ ${comment.date}</div>
+      </div>
+    `).join('');
+  }
+
+  // Xử lý submit form
+  document.getElementById('commentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const classInput = document.getElementById('class').value;
+    const comment = document.getElementById('comment').value;
+    const date = new Date().toLocaleString('vi-VN');
+    
+    const comments = JSON.parse(localStorage.getItem('comments')) || [];
+    comments.unshift({ name, class: classInput, text: comment, date });
+    localStorage.setItem('comments', JSON.stringify(comments));
+    
+    // Reset form
+    this.reset();
+    
+    // Tải lại bình luận
+    loadComments();
+    
+    // Thông báo thành công
+    alert('Cảm ơn bạn đã chia sẻ! 💌');
+  });
+
+  // Load bình luận khi trang load
+  window.addEventListener('load', loadComments);
+</script>
